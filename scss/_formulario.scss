@@ -1,0 +1,31 @@
+/* formulario */
+
+#form_id {
+    padding: 40px;
+    padding-bottom: 80px;
+    padding-top: 60px;
+
+    form {
+        transition: all 3s;
+
+        #nombre,
+        #apellido,
+        #email,
+        #telefono,
+        #mensaje {
+            border: #fe9c6f solid 1px;
+        }
+    }
+}
+
+.btn-secondary {
+    background-color: #fe9c6f;
+    border-color: #fe9c6f;
+}
+
+#send-button {
+    color: #F1F1F1;
+    font-weight: 600;
+}
+
+/* formulario */

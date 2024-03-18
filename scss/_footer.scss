@@ -1,0 +1,110 @@
+/* footer */
+
+/*------ para distintos tamaños -----*/
+
+#footer {
+    background-color: $color-naranja;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    #footer {
+        font-size: 0.7rem;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    #footer {
+        font-size: 0.7rem;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #footer {
+        font-size: 0.9rem;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #footer {
+        font-size: 1rem;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    #footer img {
+        height: 25px;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    #footer img {
+        height: 30px;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #footer img {
+        height: 40px;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #footer img {
+        height: 50px;
+    }
+
+    #info {
+        padding-top: 30px;
+        font-size: 18px;
+    }
+}
+
+#links-redes {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+#copyright {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+/* footer */

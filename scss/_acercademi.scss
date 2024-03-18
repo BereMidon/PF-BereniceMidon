@@ -1,0 +1,100 @@
+/* acerca de mi */
+@media (min-width: 400px) {
+    h1 {
+        font-size: 1.6rem;
+
+    }
+
+    #card {
+        img {
+            width: 100%;
+        }
+    
+        p {
+            width: 100%;
+        }
+    }
+
+   
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 1.6rem;
+
+    }
+
+   
+}
+
+/*------ para dispositivos desktop large -----*/
+@media (min-width: 992px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/*------ para dispositivos desktop xx-large -----*/
+@media (min-width: 1400px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+}
+
+/*------ CARD -----*/
+
+#card,
+#tabla-info {
+    flex-direction: column;
+    padding: 80px 40px 0 40px;
+    color: #000000;
+    transition: all 3s;
+}
+
+#card {
+    img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+
+    p {
+        padding-top: 20px;
+        font-weight: 500;
+    }
+}
+
+#text-sobremi {
+    padding-bottom: 15px;
+    color: #fe9c6f;
+}
+
+.text-formacion {
+    color: #fe9c6f;
+}
+
+/*------ TABLA INFO -----*/
+
+#tabla-info {
+    padding: 20px 40px 80px 40px;
+
+    ul {
+        list-style-type: none;
+
+        .year {
+            font-weight: bold;
+        }
+
+        .entity {
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .course {
+            font-weight: normal;
+        }
+    }
+}
+
+/* fin acerca de mi */

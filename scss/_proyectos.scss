@@ -1,0 +1,64 @@
+/* proyectos */
+
+
+#galeria {
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+
+    img {
+        width: 80%;
+        border-radius: 20px;
+        border: #fe9c6f solid 6px;
+        transition: all 1s ease;
+        filter: saturate(0);
+
+        &:hover {
+            transition: all 1s ease;
+            filter: saturate(1);
+            transform: scale(1.1);
+        }
+    }
+
+    .portfolio-item {
+        padding: 20px;
+
+        a {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+/*------ proyectos individuales -----*/
+
+#proyecto {
+    background-color: #fff;
+
+    #text-center {
+        padding: 40px 40px 20px 40px;
+
+        h2 {
+            font-size: 1rem;
+            color: #fff;
+            background-color: $color-naranja;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    }
+
+    #proyect-img {
+        padding-bottom: 40px;
+
+        img {
+            width: 100%;
+            padding: 0 20px 0 20px;
+        }
+    }
+}
+
+#text-proyectos {
+    padding-bottom: 15px;
+    color: $color-naranja;
+}
+
+/* proyectos */

@@ -1,0 +1,112 @@
+/* home */
+@mixin ancla{
+    text-decoration: none;
+    color: black; 
+}
+.logo {
+    width: 200px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30px;
+    margin-right: 10px;
+  }
+  
+  a {
+   @include ancla;
+text-transform: uppercase;
+    font-weight: bold;
+  
+  }
+  
+  /* contenido */
+  
+  /*------ para distintos tamaños -----*/
+  
+  #carousel {
+    padding: 15px 15px 0 15px;
+  
+    .carousel-inner {
+      border-radius: 20px;
+    }
+  }
+  
+  #welcome {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  @media (min-width: 768px) {
+    #carousel {
+      padding: 40px 40px 0 40px;
+    }
+  
+    #welcome {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-size: 1.1rem;
+    }
+  
+    #text-hola {
+      font-size: 45px;
+      margin-bottom: 35px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #carousel {
+      padding: 50px 50px 0 50px;
+    }
+  
+    #welcome {
+      padding-top: 40px;
+      padding-bottom: 50px;
+      font-size: 1.2rem;
+    }
+  
+    #text-hola {
+      font-size: 45px;
+      margin-bottom: 35px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    #carousel {
+      padding: 44px 31px 0 31px;
+    }
+  
+    #welcome {
+      padding-top: 40px;
+      padding-bottom: 50px;
+      font-size: 1.4rem;
+    }
+  
+    #text-hola {
+      font-size: 55px;
+      margin-bottom: 35px;
+      margin-top: 18px;
+    }
+  
+    #text-bienvenida {
+      font-size: 22px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  h1 {
+    font-style: 1.5rem;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  /* fin de contenido */
+  
+  /* fin de home */
+  
