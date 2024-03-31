@@ -106,6 +106,18 @@ text-transform: uppercase;
     font-weight: bold;
   }
   
+  #welcome {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #text-hola, #text-bienvenida {
+    text-align: center;
+    margin: 0;
+  }
   /* fin de contenido */
   
   /* fin de home */
